@@ -13,6 +13,7 @@ marshmallow-sqlalchemy = "*"
 python-dotenv = "*"
 bcrypt = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 

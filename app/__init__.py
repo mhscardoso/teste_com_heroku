@@ -7,7 +7,7 @@ from app.messages.routes import message_api
 
 def create_app():
     app = Flask(__name__)
-    app.config.from_object(ConfigDev)
+    app.config.from_object(ConfigProd)
 
     db.init_app(app)
     migrate.init_app(app, db)
